@@ -1,0 +1,20 @@
+{
+  "name": "addresslookup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^8.2.0"
+  },
+  "devDependencies": {
+    "csvtojson": "^0.3.18",
+    "request": "^2.53.0",
+    "tap-spec": "^2.2.1",
+    "tape": "^3.5.0"
+  }
+}
