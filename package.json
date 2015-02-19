@@ -4,14 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "make t"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^0.8.1",
-    "hapi": "^8.2.0",
-    "hapi-auth-basic": "^2.0.0"
+    "hapi": "^8.2.0"
   },
   "devDependencies": {
     "csvtojson": "^0.3.18",
