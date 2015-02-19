@@ -1,6 +1,6 @@
 ## API
 
-The only endpoint is /search/{searchTerm}
+The only endpoint is ```/search/{searchTerm}```
 
 It will return addresses that match the search term in the format:
 ```
