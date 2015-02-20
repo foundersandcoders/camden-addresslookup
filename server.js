@@ -15,6 +15,11 @@ server.connection({
     labels: ["address-service"],
     routes: {
         cors: true
+        // cors: {
+        //         origin: ['*'],
+        //         additionalHeaders: ['X-Access-Token'],
+        //         additionalExposedHeaders: ['X-Access-Token']
+        //     }
     }
 });
 
