@@ -14,7 +14,10 @@ server.connection({
     port: process.env.PORT || port,
     labels: ["address-service"],
     routes: {
-        cors: true
+        cors: {
+            additionalHeaders: ["X-Access-Token"],
+            additionalExposedHeaders: ["X-Access-Token"]
+        }
     }
 });
 
