@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/foundersandcoders/camden-addresslookup/badges/gpa.svg)](https://codeclimate.com/github/foundersandcoders/camden-addresslookup) [![Test Coverage](https://codeclimate.com/github/foundersandcoders/camden-addresslookup/badges/coverage.svg)](https://codeclimate.com/github/foundersandcoders/camden-addresslookup)
+
 ## API
 
 The only endpoint is ```/search/{searchTerm}```
