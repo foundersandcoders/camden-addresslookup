@@ -2,3 +2,4 @@ node_modules/
 .*sw*
 address.csv
 npm-debug.log
+address.json
