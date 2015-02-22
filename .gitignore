@@ -3,3 +3,4 @@ node_modules/
 address.csv
 npm-debug.log
 address.json
+coverage/
