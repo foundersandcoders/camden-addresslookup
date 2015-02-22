@@ -6,7 +6,7 @@ test("addressdb.js should be a function", function(t) {
     t.end();
 });
 
-test("addressdb should return an object", function(t) {
+test("addressdb should return an object if passed json", function(t) {
     var db = addressdb({test: "ok"});
     t.equals(typeof db, "object", "returns an object");
 
@@ -15,6 +15,14 @@ test("addressdb should return an object", function(t) {
         st.equals(typeof db.search, "function", "and is a method");
         st.end();
     });
+
+    t.end();
+});
+
+test("addressdb should return an empty object if not passed json", function(t) {
+    var db = addressdb(false);
+    t.equals(typeof db, "object", "returns an object");
+    t.deepEquals(db, {}, "returns an empty object");
 
     t.end();
 });
