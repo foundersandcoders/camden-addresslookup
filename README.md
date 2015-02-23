@@ -42,7 +42,13 @@ for tests:
 make t
 ```
 
+for test coverage
+```
+make tc
+```
+
 to run server
 ```
 make s
 ```
+
