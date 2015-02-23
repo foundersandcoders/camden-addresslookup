@@ -1,6 +1,6 @@
 var test = require("tape");
 var request = require("request");
-var server = require("../server.js");
+var server = require("../lib/server.js");
 var jwt = require("jsonwebtoken");
 var mockResponse = require("./fixtures/addressresponse.json");
 

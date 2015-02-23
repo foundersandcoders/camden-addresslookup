@@ -5,7 +5,7 @@ all:
 	make s
 
 s:
-	node server.js
+	node app.js
 
 t:
 	./node_modules/tape/bin/tape ./test/*.js | ./node_modules/.bin/tap-spec
