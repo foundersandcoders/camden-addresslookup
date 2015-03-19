@@ -13,7 +13,8 @@ It will return addresses that match the search term in the format:
 "BuildingNumber": number, 
 "Street":"string",
 "Town":"string",
-"Postcode":"string"
+"Postcode":"string",
+"title": "string"
 }]
 ```
 ## Building
